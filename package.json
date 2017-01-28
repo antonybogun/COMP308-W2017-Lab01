@@ -1,9 +1,13 @@
 {
   "name": "comp308-w2017-lab01",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -13,5 +17,21 @@
     "express": "~4.14.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "use **`npm install`** to install your project dependecies",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonybogun/COMP308-W2017-Lab01.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS"
+  ],
+  "author": "Tony Bogun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonybogun/COMP308-W2017-Lab01/issues"
+  },
+  "homepage": "https://github.com/antonybogun/COMP308-W2017-Lab01#readme"
 }
