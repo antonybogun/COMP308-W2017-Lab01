@@ -1,6 +1,6 @@
 # COMP308-W2017-Lab01
 
-## Welcome Lab01, it's COMP 308, Winter 2017
+## Welcome to Lab01, it's COMP 308, Winter 2017
 
 ### Author: Tony Bogun
 
