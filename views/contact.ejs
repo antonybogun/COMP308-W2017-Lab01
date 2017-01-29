@@ -11,23 +11,14 @@
     <link rel="stylesheet" href="/Content/app.css" />
   </head>
   <body>
+
+  
     
     <div class="container">
       <div class="row">
-
-        <div class="col-md-6">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <%= textSubtitle %>
-            </div>  
-            <div class="panel-body">
-              <%= text %>
-            </div> 
-          </div>
-        </div>
-
+      
         <div class="col-md-4">
-          <div class="panel panel-info">
+          <div class="panel panel-warning">
             <div class="panel-heading">
               <%= imageSubtitle %>
             </div>  
@@ -37,8 +28,20 @@
           </div>
         </div>
 
+        <div class="col-md-6">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <%= textSubtitle %>
+            </div>  
+            <div class="panel-body">
+              <%= text %>
+            </div> 
+          </div>
+        </div>
+        
       </div>
     </div>
+        
 
     <!-- Scripts -->
     <script src="/Scripts/lib/jquery/dist/jquery.min.js"></script>
